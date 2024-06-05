@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Work Sans", sans-serif;
+}
+.headertop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*margin: 5px 20px 5px 20px;*/
+    background-color:#214BB2 ;
+}
+.logo{
+    font-size: 2.5rem;
+    margin-left: 60px;
+    color:#FFB331 ;
+}
+.tel-text{
+    font-size: 1.5rem;
+    color:#FFB331 ;
+    text-transform: capitalize;
+    margin-right: 30px;
+}
+.tel-num{
+    text-decoration: none;
+    color: #FFB331;
+}
+.nav-list{
+    display: grid;
+    place-content: center;
+    margin-top: 3px;
+}
+.nav-items{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+}
+.nav-item a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 500;
+    transition: ease-in 0.2s;
+
+}
+.nav-item a:hover{
+    cursor: pointer;
+    color: #FFB331;
+    background-color: #214BB2;
+    padding: 5px;
+    border-radius:5px ;
+}
