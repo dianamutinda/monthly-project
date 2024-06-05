@@ -1,0 +1,76 @@
+
+.hero-section{
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0,0,0,0.7)), url("../../assets/bg.jpeg");
+    background-position:center ;
+    height: 85vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.hero-text{
+   color: white;
+   
+}
+.tag-line{
+    display: grid;
+    place-content: center;
+    font-size: 3rem;
+    padding-bottom: 7px;
+}
+@media screen and (max-width:43.25em){
+    .tag-line{
+        font-size: 2.5rem;
+    }
+    
+}
+@media screen and (max-width:35.9375em){
+    .tag-line{
+        font-size: 2rem;
+    }
+    .tag-line-para{
+        font-size: 1.5rem;
+    }
+    
+}
+@media screen and (max-width:29em){
+    .tag-line{
+        font-size: 1.5rem;
+    }
+    .tag-line-para{
+        font-size: 0.5rem;
+    }
+    
+}
+.tag-line-para{
+    font-size: 1.5rem;
+    text-align:center ;
+    line-height: 2rem;
+}
+.cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 10px;
+
+}
+.cta a{
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    background-color: #FFB331;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: ease-in 0.2s;
+}
+.cta a:hover{
+    color: #FFB331;
+    background-color: #214BB2;
+}
+
