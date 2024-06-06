@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Hero = () => {
   return (
     <div className="hero-section">
@@ -9,8 +11,8 @@ const Hero = () => {
           blanditiis!
         </p>
         <div className="cta">
-          <a href="">about us</a>
-          <a href="">testimonials</a>
+          <Link >about us</Link>
+          <Link >testimonials</Link>
         </div>
       </div>
     </div>

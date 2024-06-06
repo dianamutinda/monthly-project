@@ -1,19 +1,21 @@
+import { Link } from "react-router-dom";
+
 const Headerbottom = () => {
   return (
     <div className="headerbottom">
       <nav className="nav-list">
         <ol className="nav-items">
           <li className="nav-item">
-            <a href="">home</a>
+            <Link to="/">home</Link >
           </li>
           <li className="nav-item">
-            <a href="">destinations</a>
+            <Link  to="/destinations">destinations</Link >
           </li>
           <li className="nav-item">
-            <a href="">trip types</a>
+            <Link  to="/trip types">trip types</Link >
           </li>
           <li className="nav-item">
-            <a href="">contact us</a>
+            <Link  to="/contact us">contact us</Link >
           </li>
         </ol>
       </nav>
