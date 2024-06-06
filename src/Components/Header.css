@@ -1,81 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: "Work Sans", sans-serif;
-    overflow-x:hidden ;
+body {
+  font-family: "Work Sans", sans-serif;
+  overflow-x: hidden;
 }
-.headertop{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /*margin: 5px 20px 5px 20px;*/
-    background-color:#214BB2 ;
+.headertop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /*margin: 5px 20px 5px 20px;*/
+  background-color: #214bb2;
 }
 
 @media screen and (max-width: 46em) {
-    .headertop{
-        display:flex ;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-}
-@media screen and (max-width:29.0625em) {
-    .tel-text{
-        display: none;
-    }
-    
-}
-.logo{
-    font-size: 2.5rem;
-    margin-left: 60px;
-    color:white ;
-}
-.tel-text{
-    font-size: 1.5rem;
-    color:white ;
-    text-transform: capitalize;
-    margin-right: 30px;
-}
-.tel-num{
-    text-decoration: none;
-    color: white;
-}
-.nav-list{
-    display: grid;
-    place-content: center;
-    margin-top: 3px;
-}
-.nav-items{
+  .headertop {
     display: flex;
-    gap: 3rem;
-    list-style: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
-@media screen and (max-width:39.375em){
-    .nav-items{
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-        text-align: left;
-    }
+@media screen and (max-width: 29.0625em) {
+  .tel-text {
+    display: none;
+  }
 }
-.nav-item a{
-    text-decoration: none;
-    text-transform: capitalize;
-    color: black;
-    font-size: 1.5rem;
-    font-weight: 500;
-    transition: ease-in 0.2s;
-
+.logo {
+  font-size: 2.5rem;
+  margin-left: 60px;
+  color: white;
 }
-.nav-item a:hover{
-    cursor: pointer;
-    color: #FFB331;
-    background-color: #214BB2;
-    padding: 5px;
-    border-radius:5px ;
+.tel-text {
+  font-size: 1.5rem;
+  color: white;
+  text-transform: capitalize;
+  margin-right: 30px;
+}
+.tel-num {
+  text-decoration: none;
+  color: white;
+}
+.nav-list {
+  display: grid;
+  place-content: center;
+  margin-top: 3px;
+}
+.nav-items {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+}
+@media screen and (max-width: 39.375em) {
+  .nav-items {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: left;
+  }
+}
+.nav-item a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 500;
+  transition: ease-in 0.2s;
+}
+.nav-item a:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #214bb2;
+  padding: 5px;
+  border-radius: 5px;
 }
