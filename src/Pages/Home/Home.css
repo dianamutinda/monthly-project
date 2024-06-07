@@ -85,6 +85,10 @@
   display: block;
   object-fit: cover;
   border-radius: 100%;
+  transition: 0.2s ease-out;
+}
+.about-image img:hover{
+  transform: scale(95%);
 }
 .about-text {
   display: flex;
@@ -153,6 +157,7 @@
   height: 20rem;
   border-radius: 20px;
 }
+.destination-image-wrapper img:hov
 .text-container {
   padding: 8px;
 }
