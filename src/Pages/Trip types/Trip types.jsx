@@ -1,25 +1,21 @@
-import { FaTwitter } from "react-icons/fa";
-import { FaInstagramSquare } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { IoIosHeart } from "react-icons/io";
-import { FaFacebook } from "react-icons/fa6";
-import { FaStar } from "react-icons/fa6";
-import { MdEmail } from "react-icons/md";
-import { FaPlaneDeparture } from "react-icons/fa";
+import parkImg from "../../assets/National-Park-Kenya.jpeg"
 const Triptypes = () =>{
     return(
-        <div>
-            <p><FaTwitter /></p>
-            <p><FaInstagramSquare /></p>
-            <p><FaLinkedin /></p>
-            <p><FaFacebook /></p>
-            <p><IoIosHeart /></p>
-            <p><FaStar /></p>
-            <p><MdEmail /></p>
-            <p><FaPlaneDeparture /></p>
+        <section>
+            <div className="trip">
+                <div className="trip-container">
+                    <div className="trip-image">
+                        <img src={parkImg} alt="" />
+                        <div>
+                            <h3>honeymoon</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, nulla.</p>
+                            <p>price:$130</p>
+                        </div>
+                    </div>
 
-
-        </div>
+                </div>
+            </div>
+        </section>
 
     )
 }

@@ -14,6 +14,7 @@ body {
   justify-content: space-between;
   /*margin: 5px 20px 5px 20px;*/
   background-color: #214bb2;
+
 }
 
 @media screen and (max-width: 46em) {
@@ -48,6 +49,7 @@ body {
   display: grid;
   place-content: center;
   margin-top: 3px;
+
 }
 .nav-items {
   display: flex;
