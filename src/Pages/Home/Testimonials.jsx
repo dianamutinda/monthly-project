@@ -1,4 +1,6 @@
 import ruthImg from "../../assets/ruth.jpg";
+import manaseImg from "../../assets/manase.jpg";
+import paulImg from "../../assets/paul.jpg";
 const Testimonials = () => {
   return (
     <section>
@@ -28,24 +30,24 @@ const Testimonials = () => {
           </div>
 
           <div className="img-test-wrapper">
-            <img src={ruthImg} alt="" />
+            <img src={manaseImg} alt="" />
             <div className="wrapper-text">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Consequatur, ad!
               </p>
-              <h4>ruth mutisya</h4>
+              <h4>manase gunga</h4>
             </div>
           </div>
 
           <div className="img-test-wrapper">
-            <img src={ruthImg} alt="" />
+            <img src={paulImg} alt="" />
             <div className="wrapper-text">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Consequatur, ad!
               </p>
-              <h4>ruth mutisya</h4>
+              <h4>paul peterson</h4>
             </div>
           </div>
         </div>
